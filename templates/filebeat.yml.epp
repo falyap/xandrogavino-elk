@@ -11,5 +11,6 @@ filebeat.prospectors:
 <% } -%>
 <% } -%>
 
+
 output.logstash:
   hosts:["<%= $logstash_server %>:<%= $logstash_port %>"]
